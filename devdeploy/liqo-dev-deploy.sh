@@ -9,9 +9,9 @@ DEPLOY=true
 #FIXEDCTRLMGRIMAGE="localhost:5001/controller-manager:1687872687"
 
 COMPONENTS=(
-    #"controller-manager"
-    #"virtual-kubelet"
-    "liqonet"
+    "controller-manager"
+    "virtual-kubelet"
+    #"liqonet"
 )
 
 if [ $# -ne 0 ] && [ "$1" != "all" ]; then
